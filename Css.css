@@ -340,3 +340,114 @@ div{
     font-size: 35px;
     padding: 25px;
 }
+@media(max-width: 500px){
+    body{
+        font-size:18px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    a{
+        font-size: 30px;
+        text-align: center;
+        margin: auto;
+        padding: 3px;
+    }
+    nav{
+        font-size:20px;
+        text-align: right;
+        height: auto;
+    }
+    #name{
+        color:rgb(0, 53, 48,0.9);
+        font-size: 40px;
+        font-weight: bold;
+        float: left;
+        text-align: center;
+    }
+    .name1{
+        text-shadow: 10px 10px 20px rgb(0, 0, 0);
+    }
+    h1,h2,h3,h4{
+        font-size: 35px;
+    }
+    button{
+        font-size: 30px;
+        padding: 10px;
+    }
+    pre{
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+    img{
+        width: 90%;
+    }
+    div{
+        padding-bottom: 100px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin: auto;
+    }
+    #hobby1,#hobby2,#hobby3{
+        font-size: 30px;
+        width: 100%;
+        display: block;
+        margin: 10px;
+        margin-left: auto;
+    }
+    #strength1,#strength2,#strength3,#strength4{
+        font-size: 30px;
+        width: 100%;
+        display: block;
+        margin: 10px;
+        margin-left: auto;
+    }
+    #skill1,#skill2,#skill3,#skill4{
+        font-size: 30px;
+        width: 100%;
+        display: block;
+        margin: 10px;
+        margin-left: auto;
+    }
+    #p1l1,#p1l2,#p1l3{
+        font-size: 30px;
+        width: 100%;
+        display: block;
+        margin: 10px;
+        margin-left: auto;
+    }
+    #p1f1,#p1f2,#p1f3,#p1f4,#p1f5,#p1f6{
+        font-size: 30px;
+        width: 100%;
+        display: block;
+        margin: 10px;
+        margin-left: auto;
+    }
+    #p2l1,#p2l2{
+        font-size: 30px;
+        width: 100%;
+        display: block;
+        margin: 10px;
+        margin-left: auto;
+    }
+    #p2f1,#p2f2,#p2f3,#p2f4,#p2f5,#p2f6{
+        font-size: 30px;
+        width: 100%;
+        display: block;
+        margin: 10px;
+        margin-left: auto;
+    }
+    .contacttab{
+        width:100%;
+        margin:auto;
+        white-space: pre-wrap;
+    }
+    .profiletab{
+        width:100%;
+        margin:auto;
+        white-space: pre-wrap;
+    }
+    td,th{
+        font-size:20px;
+    }
+}
