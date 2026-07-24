@@ -325,7 +325,7 @@ div{
     font-size: 35px;
     padding: 25px;
 }
-#p2f1,#p2f2,#p2f3,#p2f4,#p2f5{
+#p2f1,#p2f2,#p2f3,#p2f4,#p2f5,#p2f6{
     display:inline-block;
     padding:20px;
     width: 500px;
@@ -336,7 +336,7 @@ div{
     text-align:center;
     font-weight:bold;
 }
-#p2f1:hover,#p2f2:hover,#p2f3:hover,#p2f4:hover,#p2f5:hover{
+#p2f1:hover,#p2f2:hover,#p2f3:hover,#p2f4:hover,#p2f5:hover,#p2f6:hover{
     font-size: 35px;
     padding: 25px;
 }
