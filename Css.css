@@ -42,6 +42,7 @@ a:hover{
     font-size: 25px;
     font-weight: bold;
     float: left;
+    text-align: center;
 }
 button{
     display: flex;
@@ -342,16 +343,13 @@ div{
 }
 @media(max-width: 500px){
     body{
-        font-size:18px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
+        font-size:15px;
     }
     a{
         font-size: 30px;
         text-align: center;
         margin: auto;
-        padding: 3px;
+        padding: 4px;
     }
     nav{
         font-size:20px;
@@ -362,14 +360,13 @@ div{
         color:rgb(0, 53, 48,0.9);
         font-size: 40px;
         font-weight: bold;
-        float: left;
-        text-align: center;
     }
     .name1{
         text-shadow: 10px 10px 20px rgb(0, 0, 0);
+        font-size: 40px;
     }
     h1,h2,h3,h4{
-        font-size: 35px;
+        font-size: 30px;
     }
     button{
         font-size: 30px;
@@ -389,63 +386,86 @@ div{
         margin: auto;
     }
     #hobby1,#hobby2,#hobby3{
-        font-size: 30px;
+        font-size: 25px;
         width: 100%;
         display: block;
-        margin: 10px;
+        margin: auto;
         margin-left: auto;
     }
     #strength1,#strength2,#strength3,#strength4{
-        font-size: 30px;
+        font-size: 25px;
         width: 100%;
         display: block;
-        margin: 10px;
+        margin: auto;
         margin-left: auto;
     }
     #skill1,#skill2,#skill3,#skill4{
-        font-size: 30px;
+        font-size: 25px;
         width: 100%;
         display: block;
-        margin: 10px;
+        margin: auto;
         margin-left: auto;
     }
     #p1l1,#p1l2,#p1l3{
-        font-size: 30px;
+        font-size: 25px;
         width: 100%;
         display: block;
-        margin: 10px;
+        margin: auto;
         margin-left: auto;
     }
     #p1f1,#p1f2,#p1f3,#p1f4,#p1f5,#p1f6{
-        font-size: 30px;
+        font-size: 25px;
         width: 100%;
         display: block;
-        margin: 10px;
+        margin: auto;
         margin-left: auto;
     }
     #p2l1,#p2l2{
-        font-size: 30px;
+        font-size: 25px;
         width: 100%;
         display: block;
-        margin: 10px;
+        margin: auto;
         margin-left: auto;
     }
     #p2f1,#p2f2,#p2f3,#p2f4,#p2f5,#p2f6{
-        font-size: 30px;
+        font-size: 25px;
         width: 100%;
         display: block;
-        margin: 10px;
+        margin: auto;
         margin-left: auto;
+    }
+    #hobby1:hover,#hobby2:hover,#hobby3:hover,#strength1:hover,#strength2:hover,#strength3:hover,#strength4:hover,#skill1:hover,#skill2:hover,#skill3:hover,#skill4:hover,#p1l1:hover,#p1l2:hover,#p1l3:hover,#p1f1:hover,#p1f2:hover,#p1f3:hover,#p1f4:hover,#p1f5:hover,#p1f6:hover,#p2l1:hover,#p2l2:hover,#p2f1:hover,#p2f2:hover,#p2f3:hover,#p2f4:hover,#p2f5:hover,#p2f6:hover{
+        font-size: 30px;
+        padding: 18px;
     }
     .contacttab{
         width:100%;
         margin:auto;
         white-space: pre-wrap;
+        td{
+            text-align: left;
+            padding-left: 4px;
+            padding-right: 0px;
+        }
+        th{
+            text-align: center;
+            padding-left: 4px;
+            padding: 3px;
+        }
     }
     .profiletab{
         width:100%;
         margin:auto;
         white-space: pre-wrap;
+        td{
+            text-align: left;
+            padding-left: 4px;
+        }
+        th{
+            text-align: center;
+            padding-left: 4px;
+            padding: 3px;
+        }
     }
     td,th{
         font-size:20px;
